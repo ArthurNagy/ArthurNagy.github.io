@@ -1,18 +1,20 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: 'Arthur Nagy'
+description: 'I work as an Android Technical Lead at HalcyonMobile.'
+url: 'http://arthurnagy.me'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'arthur-nagy'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Arthur Nagy'
+  email: arthur.nagy@outlook.com
+  twitter_username: arthur_nagy
+  facebook_username: arthur.nagy.s
+  instagram_username: arthurnagy
+  medium_username: arthur.nagy
+  github_username:  ArthurNagy
+  linkedin_username:  nagyarthur
 
 defaults:
   -

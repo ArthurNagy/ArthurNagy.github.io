@@ -47,12 +47,32 @@
               </li>
             {% endif %}
 
+            {% if site.author.instagram_username %}
+              <!-- Facebook -->
+              <li class="navigation__item">
+                <a href="http://instagram.com/{{ site.author.instagram_username }}" title="{{ site.author.facebook_username }} on Instagram" target="_blank">
+                  <i class="icon icon-social-instagram"></i>
+                  <span class="label">Instagram</span>
+                </a>
+              </li>
+            {% endif %}
+
             {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
                   <i class="icon icon-social-linkedin"></i>
                   <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.author.medium_username %}
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://medium.com/@{{ site.author.medium_username }}" title="{{ site.author.medium_username }} on Medium" target="_blank">
+                  <i class="icon icon-social-medium"></i>
+                  <span class="label">Medium</span>
                 </a>
               </li>
             {% endif %}
